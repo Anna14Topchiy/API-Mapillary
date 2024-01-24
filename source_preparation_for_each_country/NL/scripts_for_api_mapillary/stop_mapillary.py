@@ -12,15 +12,15 @@ def deg2num(lat_deg, lon_deg, zoom):
   return (xtile, ytile)
 
 MAP_ACCESS_TOKEN = "MLY|5792454307476942|a048d65f7031d0bde6ce1ded4d33a4a4" ##Change this
-outputfolder = "D:\kasko\source_preparation_for_each_country\Poland"  ##Change this
+outputfolder = r"C:\Users\annat\OneDrive\kasko\source_preparation_for_each_country\NL\scripts_for_api_mapillary\stop_mapillaryy"  ##Change this
 
 #set zoom levels and corner coordinates
 
 z = 14
-ll_lat = 48.57
-ll_lon = 22.01
-ur_lat = 54.97
-ur_lon = 23.99
+ll_lat = 49.4446
+ll_lon = 3.9994
+ur_lat = 49.9995
+ur_lon = 6.5702
 llx,lly = deg2num (ll_lat, ll_lon, z)
 urx,ury = deg2num (ur_lat, ur_lon, z)
 #uncomment the one layer you wish to use
